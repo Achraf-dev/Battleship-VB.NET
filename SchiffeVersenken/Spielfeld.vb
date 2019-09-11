@@ -71,7 +71,7 @@
         Dim Prüfwert As Int16 = Me.DataGridView1.Item(e.ColumnIndex, e.RowIndex).Tag
         Select Case Prüfwert
             Case 1
-                '  My.Computer.Audio.Play("C:\Users\k.walter\Downloads\Sound\water001.wav", AudioPlayMode.Background)
+                '  My.Computer.Audio.Play("C:\Users\....\Downloads\Sound\water001.wav", AudioPlayMode.Background)
                 Me.DataGridView1.Item(e.ColumnIndex, e.RowIndex).Value = My.Resources.Explosion_Wasser_Textur_200x200px
             Case 2 To 5
                 Me.DataGridView1.Item(e.ColumnIndex, e.RowIndex).Value = My.Resources.Explosion_Treffer_Textur_200x200px
