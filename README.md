@@ -1,4 +1,4 @@
 # Battleship-VB.NET
-Projekt von Herr B.
+Projekt Herr B.
 version 1.0 
 
